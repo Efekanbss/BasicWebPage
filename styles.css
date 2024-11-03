@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 25px
+}
+
+body {
+    font-family: Arial, sans-serif;
+    border-radius: 25px
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    background-color:black;
+    border-bottom: 1px solid black;
+    border-radius: 25px
+}
+
+
+.tagline {
+    font-size: 48px;
+    text-decoration: underline;
+    font-family: fantasy;
+    color: whitesmoke;
+    border-radius: 25px
+    
+}
+.container {
+    display: flex;
+    background-color: black;
+    
+
+}
+
+.sidebar {
+    width: 170px;
+    background-color: rgb(72, 70, 69);
+    padding: 16px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 25px
+}
+.sidebar2 {
+    width: 170px;
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    border-radius: 25px
+    
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    background-color: wheat;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.menu-item-rice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    background-color: wheat;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('/images/rice.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+.menu-item-meat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-style: oblique;
+    padding: 16px;
+    background-color: wheat;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('/images/meat.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.menu-item-broccoli{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    background-color: wheat;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('/images/broccoli.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+.menu-item-coke{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    background-color: wheat;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('/images/coke.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.menu-item-apple {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('images/yesil-elma-1-6477.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.menu-item2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 16px;
+    background-color: whitesmoke;
+    border: 1px solid  black;
+    border-radius: 3px;
+    gap: 20px;
+}
+.menu-item3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px;
+    text-align: center;
+    font-size: 30px;
+    font-family:cursive;
+    background-color: rgb(157, 166, 165);
+    border: 3px solid  black;
+    border-radius: 5px;
+    background-image: url('/images/foods.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    color: whitesmoke;
+   
+}
+
+main {
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+    border-radius: 25px
+    
+}
+
+.content-section-1 {
+    margin-bottom: 6.5rem;
+    padding: 32px;
+    background-color: green;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-image: url('/images/swim.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.content-section-2 {
+    margin-bottom: 6.5rem;
+    padding: 32px;
+    background-color: green;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-image: url('/images/gym.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.content-section-3 {
+    margin-bottom: 6.5rem;
+    padding: 32px;
+    background-color: green;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-image: url('/images/nutrition.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.icon {
+    font-size: 24px;
+    text-align: right;
+    border-radius: 25px
+}
+
+.profile {
+    width: 200px;
+    padding: 16px;
+    border-left: 1px solid white;
+    background-color:rgb(72, 70, 69) ;
+}
+
+.profile-info {
+    text-align: center;
+    margin-bottom: 16px;
+    background-color: white;
+}
+
+.profile-icon {
+    font-size: 30px;
+}
+
+.profile-info button {
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(72, 70, 69);
+    color: black;
+    cursor: pointer;
+}
+
+
+.previous-transactions h3 {
+    font-size: 16px;
+    margin-bottom: 5rem;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    border-top: 2px solid black;
+}
+
+.footer-links a {
+    margin: 0 1rem;
+    text-decoration-style:initial;
+    color: whitesmoke;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    padding: 10px;
+    
+}
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(72, 70, 69);
+    border-radius: 8px;
+}
+.title-h1 {
+    font-size: 60px;
+    font-family:cursive;
+    color: wheat;
+    font-style: oblique;
+}
+.title-h2 {
+    font-size: 40px;
+    font-family: serif;
+    color: white;
+    font-style: oblique;
+    text-decoration:underline;
+}
+.p{
+    color:black;
+    font-size: 15px;
+    font-family: monospace;
+}
+.h3{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+
+}
+
+
